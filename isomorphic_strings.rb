@@ -14,7 +14,7 @@ def is_isomorphic(s, t)
     end
     i += 1
   end
-  p letters
+
   return true
 end
 
