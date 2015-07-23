@@ -21,7 +21,6 @@ def remove_nth_from_end(head, n)
     i+=1
   end
 
-  # return if seen[seen.length - (n+1)].nil?
   if (seen.length - (n+1)) < 0
     head = seen[1]
   else
@@ -39,20 +38,16 @@ a.next = b
 b.next = c
 c.next = d
 d.next = e
-
 p remove_nth_from_end(a, 2)
 
 
 a = ListNode.new(1)
 b = ListNode.new(2)
 a.next = b
-
 p remove_nth_from_end(a, 1)
-
 
 
 a = ListNode.new(1)
 b = ListNode.new(2)
 a.next = b
-
 p remove_nth_from_end(a, 2)
